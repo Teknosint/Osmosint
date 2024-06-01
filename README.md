@@ -1,7 +1,3 @@
-Mention how the user can make the file executable from everywhere by adding osmosint to a directory in the PATH using "mv osmosint.py /usr/local/bin/osmosint"
-
-Also perhaps add that you need to make the file executable for that (chmod +x)
-
 # Osmosint
 ## Description
 Osmosint is an open-source analysis tool designed to help you find anything, anywhere. Through queries to [OpenStreetMap](https://www.openstreetmap.org) (OSM) data, performed with the [Overpy](https://pypi.org/project/overpy/) library, it allows you to get the exact coordinates of any elements, anywhere on earth.

@@ -10,18 +10,18 @@ Examples of what you can do with Osmosint in less than 1 minute:
 
 I'm sure you can imagine countless examples where this would help you during an open-source research. The only limit is your imagination (and existing OSM tags)!
 ## Table of Contents
-- [Installation]
-- [Usage]
-	- [Basic usage]
-	- [Commands functionality]
-		- [Locate]
-		- [Radius]
-		- [Convert]
-	- [Choose output format for locate and radius]
-- [Surface-level presentation of OSM (important to understand Osmosint)]
-- [Examples]
-	- [Troubleshooting an absence of results]
-- [License]
+- [Installation](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+- [Usage](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#usage)
+	- [Basic usage](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+	- [Commands functionality](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+		- [Locate](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+		- [Radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+		- [Convert](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+- [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+- [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples)
+	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+- [License](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#license)
 - 
 ## Installation
 Follow the instructions below to install Osmosint on your system (works for both Linux and Windows).

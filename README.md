@@ -12,15 +12,15 @@ I'm sure you can imagine countless examples where this would help you during an 
 ## Table of Contents
 - [Installation](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
 - [Usage](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#usage)
-	- [Basic usage](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-	- [Commands functionality](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-		- [Locate](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-		- [Radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-		- [Convert](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
-- [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+	- [Basic usage](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#basic-usage)
+	- [Commands functionality](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#commands-functionality)
+		- [Locate](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#locate)
+		- [Radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#radius)
+		- [Convert](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#convert)
+	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#choose-output-format-for-locate-and-radius)
+- [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#surface-level-presentation-of-osm-(important-to-understand-Osmosint))
 - [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples)
-	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#installation)
+	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#troubleshooting-an-absence-of-results)
 - [License](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#license)
 - 
 ## Installation

@@ -102,7 +102,9 @@ For the program to send a correct query and get the answers you are looking for,
 ### Location
 To input a location, the program will ask you this question
 
+![Question Location](https://github.com/Teknosint/Osmosint/assets/168837526/e37b6b48-8ec8-4dc6-8645-0faac68c90a6)
 
+*Figure 1 - When Osmosint asks you to input a location*
 
 Those are the two types of location that Overpass handles. Here is a quick explanation of each of them.
 1. **Geographical Area**
@@ -119,9 +121,9 @@ Bounding Boxes (bbox) are less straightforward, but significantly more precise t
 
 A bbox is a square on the map. Each corner of the square represents a coordinate. Instead of having OSM draw a bbox based on the location you entered, you can specify the coordinates so that the query only looks within the bbox that you defined. Here is an example of a bbox, taken from https://osmnames.org/ (where you can see how imprecise Geographical Areas are; here is the area that would be queried if you entered "London"):
 
+![Screenshot_Osmnames](https://github.com/Teknosint/Osmosint/assets/168837526/63973ae1-e1bb-4f43-91f0-103cf31b2b53)
 
-
-*Figure 1 - Screenshot of the query 'London' on https://osmnames.org/. The red "A" and "B" were added to illustrate the corners of the bbox.*
+*Figure 2 - Screenshot of the query 'London' on https://osmnames.org/. The red "A" and "B" were added to illustrate the corners of the bbox.*
 
 **Bbox guidelines**
 - When entering the bbox, you only need to enter the coordinates from the bottom-left (A) and top-right corners (B). 
@@ -168,7 +170,9 @@ Prior to launching the program, the user checks [TagInfo](https://taginfo.openst
 
 With every piece of information ready, the user can launch Osmosint.
 
+![Screenshot_program use](https://github.com/Teknosint/Osmosint/assets/168837526/749da1e3-e3a3-4d51-ad5e-0519e15815ce)
 
+*Figure 3 - Osmosint walkthrough of the query 'osmosint.py radius -url'*
 
 1. **Command**: `./osmosint.py radius -url`. Meaning I want to perform a [Radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#radius) search and have the results output in Google Maps URL format.
 2. **User Input**: Osmosint consecutively asks the user for the choices in location type, location name, first tag, second tag, and radius. If the user had chosen "2. Bounding Box", the program would have asked for the coordinates of the [bbox](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#surface-level-presentation-of-osm-important-to-understand-osmosint). 

@@ -17,8 +17,8 @@ I'm sure you can imagine countless examples where this would help you during an 
 		- [Locate](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#locate)
 		- [Radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#radius)
 		- [Convert](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#convert)
-	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#choose-output-format-for-locate-and-radius)
-- [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#surface-level-presentation-of-osm-(important-to-understand-Osmosint))
+	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#output-format-for-locate-and-radius)
+- [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#surface-level-presentation-of-osm-important-to-understand-osmosint)
 - [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples)
 	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#troubleshooting-an-absence-of-results)
 - [License](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#license)
@@ -60,19 +60,19 @@ python osmosint.py -h
 osmosint.py locate
 ```
 ### Commands functionality
-###### Locate
+##### Locate
 To locate the instances of a single element within a given location (for example, to get the coordinates of all bakeries in Vienna), you can use:
 ```
 osmosint.py locate
 ```
 
-###### Radius
+##### Radius
 To locate the instances of a single tag within a given radius of another tag (for example, to get the coordinates of all the bakeries within a 10m radius of a pharmacy in Vienna) , you can use:
 ```
 osmosint.py radius
 ```
 
-###### Convert
+##### Convert
 To change the format of a coordinate (either from dms to decimal, or from decimal to dms), you can use:
 ```
 osmosint.py convert
@@ -95,11 +95,12 @@ Example of coordinates in decimal format: 1.123123, -12.123123
 Example of coordinates in DMS format: 1°07'23.24"N, 12°07'23.24"W
 
 See [[#Examples]] to get a better idea of how to choose the output format.
+
 ## Surface-level presentation of OSM (important to understand Osmosint)
 Some of you might skip this part but I truly recommend you don't. This part won't go into deep details about the functionning of OverpassQL and OpenStreetMap, it is just a basic rundown to ensure that you know how to make the best use of the program.
 
 For the program to send a correct query and get the answers you are looking for, you will need to input some data. Overpass asks for the data to take a particular format. Below are the things you will have to input.
-#### Location
+### Location
 To input a location, the program will ask you this question
 ![[Pasted image 20240529161619.png]]
 Those are the two types of location that Overpass handles. Here is a quick explanation of each of them.
@@ -124,7 +125,7 @@ A bbox is a square on the map. Each corner of the square represents a coordinate
 - You can enter the coordinates under any format (48.875799 or 48°51'20.8"N), as long as you provide them following this structure: latitude, longitude.
 - To get the coordinates, the easier option is to use Google Maps and click on the map to get the coordinates of a specific place. Any alternative that works as well can also be used.
 
-#### Tags
+### Tags
 Tags are names given to the elements you are looking for. Again, OSM data is not as straightforward as GoogleMaps. If you enter "bakery", you will not get all bakeries. Tags follow a specific format (key=value). 
 
 - **Format key=value**
@@ -157,12 +158,12 @@ Launch the locate functionality of the program, and print the results in decimal
 Osmosint.py radius --dms_coords -w txt
 ```
 Launch the radius functionality of the program, and print the results in DMS format in a .txt file.
-#### Example use of radius
+### Example use of radius
 
 Here, I used "Osmosint.py radius -url", meaning I want the program to perform a radius search, and print the results in clickable -url format.
 
 First, the program asks whether I want to input the location in Geographical Area or Bounding Box. I chose, 1, and entered 'Barcelona'. This means that the program will only check results in the bounding box defined for the place 'Barcelona'. I 
-### Troubleshooting an absence of results
+## Troubleshooting an absence of results
 If you get a message from Osmosint saying that there was no response to your query, it means that the query fetched 0 instances from the specified tag within the location. Here are the steps to follow:
 - Check the syntax of the tag(s) you entered. Make sure that they closely match what you see on https://taginfo.openstreetmap.org/tags
 - On taginfo, also check that the key/value combination do exist. For example, pharmacies exist under amenity=pharmacy but not under shop=pharmacy.

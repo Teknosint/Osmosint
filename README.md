@@ -22,7 +22,6 @@ I'm sure you can imagine countless examples where this would help you during an 
 - [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples)
 	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#troubleshooting-an-absence-of-results)
 - [License](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#license)
-- 
 ## Installation
 Follow the instructions below to install Osmosint on your system (works for both Linux and Windows).
 1. **Clone the repository**

@@ -248,7 +248,7 @@ def output_results(raw_results, parameters):
         formatted_results = format_results(raw_results, formats)
         data_to_output[formats] = formatted_results
         if not parameters["file_type"]:
-            print(f"\n\nResults in {formats} format:\n")
+            print(f"\n\nResults ({len(data_to_output[formats])}) in {formats} format:\n")
             print_results(formatted_results)
 
 
@@ -266,7 +266,7 @@ def output_results(raw_results, parameters):
             )
 
     if not selected_formats and not parameters["file_type"]:
-        print("\nYou did not specify an output format (-dec, -dms, or -u).\nOutput by default is in decimal format:\n")
+        print("\nYou did not specify an output format (-dec, -dms, or -u).\nResults ({len(raw_results)}) in decimal format (default):\n")
         print_results(format_results(raw_results, "decimal"))
 
     return data_to_output

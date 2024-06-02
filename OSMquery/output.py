@@ -322,3 +322,4 @@ def welcome(args):
 
     print(osmosint_ascii)
     print(welcome_message)
+    print("    _____________________________________________________\n")

@@ -20,7 +20,7 @@ I'm sure you can imagine countless [examples](https://github.com/Teknosint/Osmos
 	- [Choose output format for locate and radius](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#output-format-for-locate-and-radius)
 - [Surface-level presentation of OSM (important to understand Osmosint)](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#surface-level-presentation-of-osm-important-to-understand-osmosint)
 - [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples)
-	- [Osmosint Walkthrough]((https://github.com/Teknosint/Osmosint?tab=readme-ov-file#osmosint-walkthrough)
+	- [Osmosint Walkthrough](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#osmosint-walkthrough)
 	- [Troubleshooting an absence of results](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#troubleshooting-an-absence-of-results)
 - [License](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#license)
 ## Installation

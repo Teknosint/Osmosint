@@ -25,6 +25,7 @@ I'm sure you can imagine countless examples where this would help you during an 
 ## Installation
 Follow the instructions below to install Osmosint on your system (works for both Linux and Windows).
 1. **Clone the repository**
+
 Open a terminal or Command Prompt and run:
 ```bash
 git clone https://github.com/teknosint/osmosint.git
@@ -32,6 +33,7 @@ cd osmosint
 ```
 
 2. **Set-up a virtual environment (optional)**
+
 Setting up a virtual environment can be useful to prevent version conflicts between packages.
 - **For Windows**
 ```bash
@@ -93,7 +95,7 @@ When choosing to output **DMS-formatted coordinates in a csv file**, it is a bit
 Example of coordinates in decimal format: 1.123123, -12.123123
 Example of coordinates in DMS format: 1°07'23.24"N, 12°07'23.24"W
 
-See [[#Examples]] to get a better idea of how to choose the output format.
+See [Examples](https://github.com/Teknosint/Osmosint?tab=readme-ov-file#examples) to get a better idea of how to choose the output format.
 
 ## Surface-level presentation of OSM (important to understand Osmosint)
 Some of you might skip this part but I truly recommend you don't. This part won't go into deep details about the functionning of OverpassQL and OpenStreetMap, it is just a basic rundown to ensure that you know how to make the best use of the program.

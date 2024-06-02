@@ -1,6 +1,6 @@
 # Osmosint
 ## Description
-Osmosint is an open-source analysis tool designed to help you find anything, anywhere. Through queries to [OpenStreetMap](https://www.openstreetmap.org) (OSM) data, performed with the [Overpy](https://pypi.org/project/overpy/) library, it allows you to get the exact coordinates of any elements, anywhere on earth.
+Osmosint is an open-source analysis tool designed to help you find anything, anywhere on earth. Through queries to [OpenStreetMap](https://www.openstreetmap.org) (OSM) data, performed with the [Overpy](https://pypi.org/project/overpy/) library, it allows you to get the exact coordinates of any elements, anywhere on earth.
 
 Examples of what you can do with Osmosint in less than 1 minute:
 - Get the exact coordinates of all pharmacies in London

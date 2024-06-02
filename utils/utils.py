@@ -51,6 +51,8 @@ def parse_args():
                                choices=['txt', 'csv'],
                                help="Write the output to a file (txt or csv)")
 
+    add_location_arguments(parser)
+    
     subparser = parser.add_subparsers(dest='command')
      
     parser_locate = subparser.add_parser('locate',

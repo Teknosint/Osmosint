@@ -65,19 +65,19 @@ osmosint.py -h
 ##### Locate
 To locate the instances of a single element within a given location (for example, to get the coordinates of all bakeries in Vienna), you can use:
 ```
-osmosint.py locate -h
+./osmosint.py locate -h
 ```
 
 ##### Radius
 To locate the instances of a single tag within a given radius of another tag (for example, to get the coordinates of all the bakeries within a 10m radius of a pharmacy in Vienna) , you can use:
 ```
-osmosint.py radius -h
+./osmosint.py radius -h
 ```
 
 ##### Convert
 To change the format of a coordinate (either from dms to decimal, or from decimal to dms), you can use:
 ```
-osmosint.py convert -h
+./osmosint.py convert -h
 ```
 ### Output format for *locate* and *radius*
 
@@ -155,12 +155,12 @@ Once you find adequate tag (or tags) for a query, you will need to enter them in
 
 ## Examples
 ```
-Osmosint.py locate -dec -url
+./osmosint.py locate -dec -url
 ```
 Launch the locate functionality of the program, and print the results in decimal format and as Google Maps url in the terminal.
 
 ```
-Osmosint.py radius --dms_coords -w txt
+./osmosint.py radius --dms_coords -w txt
 ```
 Launch the radius functionality of the program, and print the results in DMS format in a .txt file.
 ### Osmosint Walkthrough
